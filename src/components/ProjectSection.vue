@@ -38,7 +38,7 @@
             title: "Portfolio ",
             description: "Mon Portfolio Personnel",
             image: "public/portfolio.jpg",
-            link: "https://amonandre12.github.io/PORTFOLIO/",
+            link: "https://amonandre12.github.io/portfolio/",
           },
   
   
