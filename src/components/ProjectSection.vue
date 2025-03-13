@@ -24,20 +24,20 @@
           {
             title: "Jeu de Serpent",
             description: "Jeu interactif avec Vue.js",
-            image: "/public/serpent.jpg" ,
+            image: "/portfolio/serpent.jpg" ,
             link: "https://amonandre12.github.io/SNAKE-VUE/",
           },
           {
             title: "Site W3.CSS-Template",
             description: "Site responsive pour aliments",
-            image: "/public/sandwich.jpg" ,
+            image: "/portfolio/sandwich.jpg" ,
             link: "https://amonandre12.github.io/SITE-FOOD/",
           },
 
           {
             title: "Portfolio ",
             description: "Mon Portfolio Personnel",
-            image: "/public/portfolio.jpg" ,
+            image: "/portfolio/portfolio.jpg" ,
             link: "https://amonandre12.github.io/portfolio/",
           },
 
@@ -45,14 +45,14 @@
           {
             title: "AzerType",
             description: "Application de saisie rapide",
-            image: "/public/form.jpg" ,
+            image: "/portfolio/form.jpg" ,
             link: "https://amonandre12.github.io/AZERTYPE/",
           },
 
           {
             title: "Formulaire de conexion",
             description: "Formulaire avec validation des champs",
-            image: "/public/lyft.jpg" ,
+            image: "/portfolio/lyft.jpg" ,
             link: "https://amonandre12.github.io/FORM-TEST/",
          },
         ],
