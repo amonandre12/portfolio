@@ -1,7 +1,7 @@
 <template>
     <footer>
       <div class="footer-container">
-        <p>&copy; {{ new Date().getFullYear() }} - AMON | Développeur Front-end</p>
+        <p>&copy; {{ new Date().getFullYear() }} - AMON | Développeur Front-end React & Vue.js</p>
         <div class="social-links">
           <a href="https://www.linkedin.com/in/blin-wadja-andré-amon-00050a337/" target="_blank" title="LinkedIn">
             <i class="fab fa-linkedin"></i>

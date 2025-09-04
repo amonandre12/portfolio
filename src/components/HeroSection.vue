@@ -9,11 +9,11 @@ defineProps({
 
 <template>
   <div class="hero-section">
-    <h1>Salut, je suis <span>{{ name }}</span></h1>
-    <h2>Développeur Front-End </h2>
-    <p>Je crée des sites modernes et responsives avec <strong>Vue.js</strong>, HTML, CSS & javascript</p>
+    <!-- <h1>Salut, je suis <span>{{ name }}</span></h1> -->
+    <h2>Développeur Front-End React & Vue.js </h2>
+    <p>Je crée des sites modernes et responsives avec <strong>React.js</strong>, <strong>Vue.js</strong>, <strong>TypeScript</strong>, HTML, CSS & javascript</p>
 
-    <a href="/portfolio/cv_amon.pdf" class="btn" download="cv_amon.pdf">Télécharder mon CV</a>
+    <a href="/portfolio/CV AMON.pdf" class="btn" download="cv_amon.pdf">Télécharder mon CV</a>
   </div>
 </template>
 

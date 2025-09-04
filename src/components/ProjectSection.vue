@@ -29,16 +29,16 @@
           },
           {
             title: "Site W3.CSS-Template",
-            description: "Site responsive pour aliments",
+            description: "Site responsive pour aliments réaliser avec Vue.js",
             image: "/portfolio/sandwich.jpg" ,
             link: "https://amonandre12.github.io/SITE-FOOD/",
           },
 
           {
-            title: "Portfolio ",
-            description: "Mon Portfolio Personnel",
-            image: "/portfolio/portfolio.jpg" ,
-            link: "https://amonandre12.github.io/portfolio/",
+            title: "Un projet de Académie France  ",
+            description: "Un projet de Académie France réalisé avec HTML et CSS ",
+            image: "/portfolio/images.png" ,
+            link: " https://amonandre12.github.io/Academy_site/",
           },
 
 
@@ -51,9 +51,27 @@
 
           {
             title: "Formulaire de conexion",
-            description: "Formulaire avec validation des champs",
+            description: "Formulaire statique réalisé avec HTML et CSS ",
             image: "/portfolio/lyft.jpg" ,
             link: "https://amonandre12.github.io/FORM-TEST/",
+         },
+         {
+           title: "Site responsive pour designer ",
+            description: "Un site web pour presenter ses differents services réalisé avec HTML , CSS et JavaScript",
+            image: "/portfolio/home.jpg" ,
+            link: "https://amonandre12.github.io/Designer/",
+         },
+         {
+            title: "Formulaire de conexion",
+            description: "Formulaire avec validation en temps réel réalisé avec Vue.js",
+            image: "/portfolio/logo.jpg" ,
+            link: "https://amonandre12.github.io/validation/", 
+         },
+         {
+           title: "Site vitrine ",
+            description: "Un site pour la presentation des aliments réalisé avec React.js",
+            image: "/portfolio/sandwich.jpg" ,
+            link: "gne sur https://amonandre12.github.io/react_food/",
          },
         ],
       };
@@ -72,7 +90,9 @@
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;
   }
-
+  h2 {
+    margin-bottom: 30px;
+  }
   .project-card {
     background: #f5f5f5;
     border-radius: 10px;

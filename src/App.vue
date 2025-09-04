@@ -22,18 +22,28 @@ const closeMenu = () => { isMenuOpen.value = false; };
       </button>
       <ul :class="{'nav-links': true, 'open': isMenuOpen}">
         <li><a href="#accueil" @click="closeMenu">Accueil</a></li>
-        <li><a href="#accueil" @click="closeMenu">À propos</a></li>
-        <li><a href="#projets" @click="closeMenu">Projets</a></li>
+        <li><a href="#about" @click="closeMenu">À propos</a></li>
+        <li><a href="#project" @click="closeMenu">Projets</a></li>
         <li><a href="#contact" @click="closeMenu">Contact</a></li> 
       </ul>
     </nav>
   </header>
 
-  <main>
+  <main id = accueil>
     <HeroSection name="AMON" />
-    <AboutSection/>
+
+    <sextion id = "about">
+     <AboutSection/>
+    </sextion>
+    
+    <section id = "project">
     <ProjectSection/>
-    <ContactSection/>
+    </section>
+   
+    <section id = "contact">
+      <ContactSection/>
+    </section>
+    
     <FooterSection/>
   </main>
 </template>

@@ -1,7 +1,7 @@
 <script setup>
 import MainContent from './MainContent.vue'
-import {ref} from 'vue'
-const name = ref('AMON')
+
+
 
 // const openReadmeInEditor = () => fetch('/__open-in-editor?file=README.md')
 </script>
@@ -10,30 +10,20 @@ const name = ref('AMON')
 
 <div class="about-content">
   <MainContent>
-    <template #heading><span>À propos de moi</span></template>
+    <template #heading><span class = "span_style">À propos de moi</span></template>
 
-    <p>Je suis <strong>{{ name }} </strong> , développeur web front-end autodidacte passionné  <br/>
-      par la création d'interface modernes avec <strong>Vue.js</strong>,HTML,CSS et Javascript.<br/>
-      Mon objectif est de transformer des idées en sites web clairs, interactif et 100% responsives.
-    </p>
-    
-  </MainContent>
-<p>
-  Je crois que chaque projet est une opportunité  d'apprentissage.<br/>
-  Même si je suis au debut de ma carrière, ma motivation et ma capacité à trouver des solutions <br/>
-  me permettent d'aller toujours de plus loin.
-</p>
-
-  <MainContent>
     <p>
-      Je suis prêt à collaborer avec des entreprises,<br/> 
-      startups ou particuliers pour donner vie à leur projet numérique.
+      Mon portfolio reflète ma passion pour le développement front-end.
+      J’y présente des interfaces modernes, performantes et centrées sur l’utilisateur, réalisées avec React.js, Vue.js, JavaScript, TypeScript, HTML et CSS.
+      Ma rigueur technique et ma créativité me permettent de transformer des maquettes en expériences digitales fluides et intuitives. 
+      Découvrez la valeur que je peux apporter à vos projets.
     </p>
-
-    <!-- <a href="#projects" class="btn">Découvrez mes projets</a> -->
-  </MainContent>
+   </MainContent>
 
 </div>
+
+
+
 </template>
 
 <style scoped>
@@ -43,9 +33,9 @@ const name = ref('AMON')
   background: #f5f5f5;
 }
 
-.about-content span {
+.span_style {
   font-size: 2.5rem;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   color: #333;
 }
 
