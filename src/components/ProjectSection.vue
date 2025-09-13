@@ -65,13 +65,19 @@
             title: "Formulaire de conexion",
             description: "Formulaire avec validation en temps réel réalisé avec Vue.js",
             image: "/portfolio/logo.jpg" ,
-            link: "https://amonandre12.github.io/validation/", 
+            link: "https://amonandre12.github.io/validation/",
          },
          {
            title: "Site vitrine ",
             description: "Un site pour la presentation des aliments réalisé avec React.js",
             image: "/portfolio/sandwich.jpg" ,
-            link: "gne sur https://amonandre12.github.io/react_food/",
+            link: "https://amonandre12.github.io/react_food/",
+         },
+           {
+           title: "Formulaire d'inscription ",
+            description: "Un formulaire de contact réalisé avec React.js",
+            image: "/portfolio/form.png" ,
+            link: " https://amonandre12.github.io/formulaire/",
          },
         ],
       };
